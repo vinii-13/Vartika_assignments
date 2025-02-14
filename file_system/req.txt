@@ -1,0 +1,3 @@
+13 
+Program to write in a file
+appended string here
