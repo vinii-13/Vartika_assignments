@@ -40,7 +40,7 @@ int main(){
 
     FILE *fptr;
     fptr = fopen("req.txt", "a");
-    //char s[25]= {appe};
+    
     fprintf(fptr, "\n");
     fprintf(fptr,  "appended string here");
 
