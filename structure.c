@@ -32,3 +32,4 @@ int main() {
 	printf("mark: %i\n",p1.mark[0]);
 	return 0;
 }
+// structures in c cannot have functions directly as member functions but c++ can.
