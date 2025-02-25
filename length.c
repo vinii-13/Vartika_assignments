@@ -2,20 +2,16 @@
 #include<stdio.h>
 #include<string.h>
 
-static int a = 0;
-void fun(char* arr) {
+int fun(char* arr) {
 	if (*arr == '\0') {
 		return;
 	}
-	else {
-		a++;
-		fun(arr + 1);
-	}
+	return 1 + fun(arr + 1);
 }
 
 int main() {
 	char arr[] = "Finding length of string";
-	fun(arr);
+	int a = fun(arr);
 	printf("%d", a);
 
 	return 0;
