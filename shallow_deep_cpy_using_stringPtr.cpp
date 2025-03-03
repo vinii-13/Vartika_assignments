@@ -22,6 +22,9 @@ public:
 	void display() {
 		cout << "c: " << c << "  *ptr: " << *ptr <<"  &ptr: "<<&ptr << endl;
 	}
+	~ab(){
+		delete ptr;
+	}
 };
 
 int main() {
